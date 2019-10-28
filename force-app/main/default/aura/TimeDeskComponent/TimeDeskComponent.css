@@ -1,0 +1,11 @@
+.THIS.time-desk{
+  display: flex;
+  justify-content: space-between;
+  background: black;
+}
+
+@media (max-width: 1500px) { 
+  .THIS.time-desk {
+    flex-direction: column;
+  }
+ }

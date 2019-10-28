@@ -1,0 +1,45 @@
+.THIS {
+  background: black;
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url(/resource/Orbitron/Orbitron-Regular.ttf);
+}
+
+.THIS .clock {
+  text-align: center;
+  color: #17D4FE;
+  font-size: 60px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 7px;
+}
+
+.THIS .sign {
+  color: #17D4FE;
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.THIS.clock-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1500px) { 
+  .THIS .clock {
+    text-align: center;
+  }
+ }
+
+ @media (max-width: 750px) { 
+  .THIS .clock {
+    font-size: 40px;
+  }
+
+  .THIS .sign {
+    font-size: 15px;
+  }
+ }
